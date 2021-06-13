@@ -1,0 +1,28 @@
+.navbar-custom {
+    background-color:rgb(236, 232, 232);
+    border-radius: 0;
+    border: 0;
+}
+
+a.navbar-brand {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#our-menu {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#menu-item {
+    background-color:rgb(236, 232, 232);
+    padding: 20px;
+    margin: 5px;
+}
+
+#menu-item p {
+    font-weight: bold;
+}
