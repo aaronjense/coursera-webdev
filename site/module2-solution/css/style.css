@@ -22,20 +22,20 @@ p {
 .textbox {
     background-color: grey;
     border: 3px solid black;
-    margin: 10px;
+    margin: 5px;
 }
 
 .titlebox {
     border: 2px solid black;
     text-align: center;
     float: right;
-    padding-left: 60px;
-    padding-right: 60px;
+    width: 100px;
     margin: 0px;
     font-size: 125%;
     font-weight: bold;
 }
 
+/* titlebox colors */
 .chicken-color {
     background-color: rgb(202, 115, 148);
 }
@@ -52,7 +52,7 @@ p {
 /* small */
 @media (max-width: 767px)
 {
-    .sm-1, .sm-2, .sm-3 {
+    .col-sm-12 {
         width: 100%;
         float: left;
     }
@@ -61,11 +61,11 @@ p {
 /* medium */
 @media (min-width: 768px) and (max-width: 991px)
 {
-    .md-1, .md-2 {
+    .col-md-6 {
         width: 50%;
         float: left;
     }
-    .md-3 {
+    .col-md-12 {
         width: 100%;
         float: left;
     }
@@ -74,8 +74,8 @@ p {
 /* large */
 @media (min-width: 992px)
 {
-    .lg-1, .lg-2, .lg-3 {
-        width: 33.33%;
+    .col-lg-4 {
+        width: 33%;
         float: left;
     }
 }
